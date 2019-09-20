@@ -1,0 +1,104 @@
+<html><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet"href="style.css">
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
+
+<head>
+  <title>WC Weather</title>
+  <link rel="favicon" href="images/Climber.ico" />
+</head>
+
+<blockquote class="blockquote text-center">
+  <h2 class="mb-0">Weather Conditions in the Western Cape</h2>
+  <footer class="blockquote-footer">by Chris Barker</footer>
+</blockquote>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h3>Montagu</h3>
+        <ul>
+          <li class="montaguTemp">Blank</li>
+          <li><img class="montaguWeather" id="montaguIcon" src="images/Blank.png" alt="" width=40></li>
+          <li class="montaguHumidity">Blank</li>
+          <li class="montaguWind">Blank</li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <h3>Ten day forecast</h3>
+          <ul>
+            
+          </ul>
+      </div>
+      <div class="col-sm-auto">
+        <img class="montaguimage" src="images/montagu.jpg" alt="" width=300>
+        <button type="button" onclick="nextmontaguimage2()" class="btn btn-outline-dark">Next image</button>
+      </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm">
+          <h3>Oudtshoorn</h3>
+          <ul>
+            <li class="oudtshoornTemp">Blank</li>
+            <li><img class="oudtshoornWeather" id="oudtshoornIcon" src="images/Blank.png" alt="" width=40></li>
+            <li class="oudtshoornHumidity">Blank</li>
+            <li class="oudtshoornWind">Blank</li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h3>Ten day forecast</h3>
+        </div>
+        <div class="col-sm-auto">
+          <img class="oudtshoornimage1" src="images/oudtshoorn.jpg" alt="" width=300>
+          <button type="button" onclick="nextOutdshoornImage()" class="btn btn-outline-dark">Next image</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <h3>Muizenberg</h3>
+          <ul>
+            <li class="theholeTemp">Blank</li>
+            <li><img class="theholeWeather" id="theholeIcon" src="images/Blank.png" alt="" width=40></li>
+            <li class="theholeHumidity">Blank</li>
+            <li class="theholeWind">Blank</li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h3>Ten day forecast</h3>
+        </div>
+        <div class="col-sm-auto">
+          <img class="theholeimage1" src="images/thehole.jpg" alt="" width=300>
+          <button type="button" onclick="nexttheholeimage()" class="btn btn-outline-dark">Next image</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <h3>Rocklands</h3>
+          <ul>
+            <li class="rocklandsTemp">Blank</li>
+            <li><img class="rocklandsWeather" id="rocklandsIcon" src="images/Blank.png" alt="" width=40></li>
+            <li class="rocklandsHumidity">Blank</li>
+            <li class="rocklandsWind">Blank</li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h3>Ten day forecast</h3>
+        </div>
+        <div class="col-sm-auto">
+          <img class="rocklandsimage1" src="images/rocklands1.jpeg" alt="" width=300>
+          <button type="button" onclick="nextRocklandsImage()" class="btn btn-outline-dark">Next image</button>
+        </div>
+      </div>
+
+  </div>
+
+</html>
